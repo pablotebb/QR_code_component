@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212deg, 45%, 89%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.main-container {
+  width: 316px;
+  height: 516px;
+  margin: 83px auto;
+  padding: 16px;
+  border-radius: 15px;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.section-picture {
+  background-image: url(images/image-qr-code.png);
+  width: 284px;
+  height: 289px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.section-presentation {
+  text-align: center;
+}
+
+.section-presentation__title {
+  margin: 31px 0 22px;
+  color: hsl(218deg, 44%, 22%);
+}
+
+.section-presentation__description {
+  font-size: "Outfit", sans-serif;
+  color: hsl(220deg, 15%, 55%);
+  margin: 0 10px 0;
+}
+
+@media (min-width: 1440px) {
+  .main-container {
+    width: 322px;
+    height: 516px;
+    margin: 154px auto;
+    padding: 21px;
+  }
+
+  .section-picture {
+    height: 291px;
+  }
+
+  .section-presentation__title {
+    margin: 29px 0 25px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

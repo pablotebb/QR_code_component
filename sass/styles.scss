@@ -1,0 +1,55 @@
+@use "variables";
+@use "initial";
+@use "footer";
+
+.main-container {
+  // border: 1px solid red;
+  width: 316px;
+  height: 516px;
+  margin: 83px auto;
+  padding: 16px;
+  border-radius: 15px;
+  background-color: variables.$White;
+}
+
+.section-picture {
+  background-image: url(../images/image-qr-code.png);
+  width: 284px;
+  height: 289px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+.section-presentation {
+  text-align: center;
+  &__title {
+    margin: 31px 0 22px;
+    color: variables.$Dark-blue;
+  }
+  &__description {
+    font-size: variables.$Font-family;
+    color: variables.$Grayish-blue;
+    margin: 0 10px 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-container {
+    // border: 1px solid red;
+    width: 322px;
+    height: 516px;
+    margin: 154px auto;
+    padding: 21px;
+  }
+
+  .section-picture {
+    height: 291px;
+  }
+
+  .section-presentation {
+    &__title {
+      margin: 29px 0 25px;
+    }
+  }
+}
